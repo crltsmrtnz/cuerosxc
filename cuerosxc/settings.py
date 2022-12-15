@@ -141,7 +141,7 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# try:
-#     from cuerosxc.local_settings import *
-# except ImportError:
-#     pass
+try:
+    from cuerosxc.local_settings import *
+except ImportError:
+    pass
